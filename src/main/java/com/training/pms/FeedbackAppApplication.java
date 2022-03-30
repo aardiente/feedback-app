@@ -24,4 +24,10 @@ public class FeedbackAppApplication {
 	{
 		return "Bye bye!";
 	}
+	
+	@GetMapping("/boredom")
+	public String boredom()
+	{
+		return "This isn't entertaining. Can I write code now plz.";
+	}
 }
