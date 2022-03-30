@@ -18,4 +18,10 @@ public class FeedbackAppApplication {
 	{
 		return "I want to commit die...";
 	}
+	
+	@GetMapping("/sayBye")
+	public String sayBye()
+	{
+		return "Bye bye!";
+	}
 }
